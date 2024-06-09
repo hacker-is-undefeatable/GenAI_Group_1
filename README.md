@@ -1,4 +1,4 @@
-<p style="font-size:50px;"> GenAI_Group_1</p>
+# GenAI_Group_1
 Welcome to the GenAI Project Repository for the HKUST Chemistry Department! 
 
 This is the central hub for Group 1, where we collaborate, innovate, and share our work on chemistry projects.
