@@ -1,18 +1,26 @@
 Workflow
 
 Data Collection: Collect and label a dataset with texts related to biology and viruses.
-
+Biological data used: CORD_19_dataset (source: https://github.com/allenai/cord19)                  DONE
+General question data used: 65 Million Probably-Asked Questions                                    DONE
+(source: https://www.kaggle.com/datasets/mathurinache/65-million-probablyasked-questions)    
 
 Preprocessing: Clean and preprocess the text data.
-
+Biological Data         DONE
+General Data            PROCESSING
 
 Feature Extraction: Convert text to numerical features using TF-IDF or word embeddings.
-
+Biological Data         NOT STARTED
+General Data            NOT STARTED
 
 Model Training: Train a classifier like SVM or a neural network on the processed data.
-
+Biological Data         NOT STARTED
+General Data            NOT STARTED
 
 Evaluation: Validate the model and tune hyperparameters.
-
+Biological Data         NOT STARTED
+General Data            NOT STARTED
 
 Deployment: Deploy the model for real-time classification of user inputs.
+Biological Data         NOT STARTED
+General Data            NOT STARTED
