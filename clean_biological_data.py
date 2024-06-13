@@ -6,7 +6,6 @@ path = """CORD_19_dataset_orginal_Copy/noncomm_use_subset/noncomm_use_subset/pdf
 dir_list = os.listdir(path)     # list of filename in path
 num_of_files = len(dir_list)
 print("Number of file: " + str(num_of_files))
-print(path + dir_list[0])
 
 for file in tqdm(range(num_of_files), desc="Processing...", ascii=False, ncols=100):
     x = json.load(open(path + dir_list[file]))
