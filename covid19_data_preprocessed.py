@@ -1,0 +1,21 @@
+import pandas as pd
+df = pd.read_csv("epic_qa_consumer_w_content.csv")
+#df = df.drop(['Unnamed:0.1', 'Unnamed:0'], axis=1)
+print(df.info())
+new_df = df.iloc[:, 2:]
+print(new_df.info())
+most_common_context = new_df['contexts'].value_counts().idxmax()
+most_common_title = new_df['title'].value_counts().idxmax()
+most_common_url = new_df['url'].value_counts().idxmax()
+print("Most Common Context:", most_common_context)
+print("Most Common Title:", most_common_title)
+print("Most Common URL:", most_common_url)
+preprocessed = new_df.copy()
+preprocessed['contexts'] = preprocessed['contexts'].fillna("missing context")
+preprocessed['title'] = preprocessed['title'].fillna("missing title")
+preprocessed['url'] = preprocessed['url'].fillna("missing url")
+preprocessed['content'] = preprocessed['content'].fillna("missing content")
+missing_values_count = preprocessed.isnull().sum()
+missing_values_count = preprocessed.isnull().sum()
+print(missing_values_count)
+
