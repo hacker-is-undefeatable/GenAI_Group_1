@@ -6,12 +6,12 @@ General question data used: 65 Million Probably-Asked Questions                 
 (source: https://www.kaggle.com/datasets/mathurinache/65-million-probablyasked-questions)    
 
 Preprocessing: Clean and preprocess the text data.
-Biological Data         DONE
-General Data            PROCESSING
+Biological Data         DONE (Not very sophisticated)
+General Data            DONE
 
 Feature Extraction: Convert text to numerical features using TF-IDF or word embeddings.
-Biological Data         NOT STARTED
-General Data            NOT STARTED
+Biological Data         PROCESSING
+General Data            PROCESSING
 
 Model Training: Train a classifier like SVM or a neural network on the processed data.
 Biological Data         NOT STARTED
