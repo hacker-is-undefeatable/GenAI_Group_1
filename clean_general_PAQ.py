@@ -2,7 +2,7 @@ import json
 import os
 
 file_path = """65 Million Probably-Asked Questions/PAQ/PAQ_filtered.jsonl"""        # file to be processed
-write_path = """65 Million Probably-Asked Questions/PAQ/Question.txt"""             # written file
+write_path = """Data/General_Question.txt"""             # written file
 
 count = 0
 with open(file_path) as source:
